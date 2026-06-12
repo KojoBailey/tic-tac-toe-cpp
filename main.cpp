@@ -189,6 +189,9 @@ auto main() -> int
 
 	std::string user_input;
 	
+	std::println("--- CLI Tic Tac Toe ---");
+	std::println("Get 3 of your symbol in a row, column, or diagonal to win!");
+	std::println("Input \"quit\" at any time to quit early.");
 	std::println();
 
 	while (true) {
