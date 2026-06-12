@@ -9,6 +9,14 @@ All the code is in one `main.cpp`, partially because I'm lazy, but also because 
 
 I make use of modern C++ features - that is, the latest stuff from C++23/26 - where it makes sense and where my compiler (Clang) actually lets me. This would typically not be something worth mentioning, but C++ programmers have a strange habit of avoiding new things despite their advantages.
 
+I also make use of this code:
+
+```cpp
+#define loop while(true)
+```
+
+I cannot justify this - I just wanted to try it out.
+
 ## How To Play
 The rules follow that of classic Tic-Tac-Toe.
 
@@ -18,3 +26,8 @@ There are two players, each using either noughts (`O`s) or crosses (`X`s). The f
 > Tic-Tac-Toe is a [solved game](https://en.wikipedia.org/wiki/Solved_game), meaning the first player can always win if they play optimally. Assuming you don't already know, can you figure out how?
 
 This version of the game supports both Player vs Player (PvP) and Player vs Computer (PvC), although the computer just plays randomly.
+
+## Contributing
+If you happen to find a bug while inspecting the source code or playing the game, please open an [issue](https://github.com/KojoBailey/tic-tac-toe-cpp/issues) on GitHub.
+
+[Pull requests](https://github.com/KojoBailey/tic-tac-toe-cpp/pulls) are enabled, but since this is a random, fun project, it's unlikely I'll merge any directly. Instead, I'd take suggestions and use them to figure out how to make the changes myself, for learning purposes.
