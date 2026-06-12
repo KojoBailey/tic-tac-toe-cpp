@@ -369,7 +369,7 @@ auto main() -> int
 {
 	Game game;
 
-	std::println("~~~ CLI Tic Tac Toe ~~~");
+	std::println("~~~ CLI Tic-Tac-Toe ~~~");
 	std::println("Made from scratch in C++ by Kojo Bailey.");
 	std::println();
 	std::println("Get 3 of your symbol in a row, column, or diagonal to win!");
